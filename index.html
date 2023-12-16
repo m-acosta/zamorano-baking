@@ -10,50 +10,50 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
-            color: #495057;
+            background-image: url('Media/pexels-cottonbro-studio-4873687.jpg'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            color: #d2b48c; /* Brown tone for text */
         }
 
         header {
-            background-color: #343a40;
-            color: #ffffff;
+            background-color: #2c2926; /* header background */
+            color: #ffd700; /* header text color */
             text-align: center;
             padding: 1em 0;
         }
 
         section {
-            max-width: 600px; /* Adjust the max-width as needed */
-            margin: 0 auto; /* Center the section on the page */
+            max-width: 600px;
+            margin: 0 auto;
             padding: 1em;
-            background-color: #ffffff;
+            background-color: #453f3c; /* section background */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
 
         img {
-            max-width: 100%; /* Make the image responsive within its container */
-            height: auto; /* Maintain the image's aspect ratio */
-            display: block; /* Remove any default inline styles */
-            margin: 0 auto; /* Center the image within its container */
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
         }
 
-        h1 {
-            color: #343a40;
+        h1, h2 {
+            color: #d2b48c; /* headings */
         }
 
         p {
             line-height: 1.6;
         }
 
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            border: none;
-            background-color: #343a40;
-            color: #ffffff;
-            cursor: pointer;
-            border-radius: 4px;
+        @media screen and (max-width: 600px) {
+            /* Adjust styles for smaller screens or devices */
+            section {
+                max-width: 100%; /* Adjust section width for smaller screens */
+            }
         }
+
     </style>
 </head>
 
@@ -65,15 +65,12 @@
     </header>
 
     <section>
-        <h2>DKD Eats</h2>
         <p>More info coming soon!</p>
     </section>
 
     <section>
-        <img src="contact.png" alt="Contact Info">
+        <img src="Media/contact.png" alt="Contact Info">
     </section>
-
-    
 
 </body>
 
